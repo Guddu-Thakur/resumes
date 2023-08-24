@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: sans-serif !important;
+}
+
+nav {
+    width: 25%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:10px ;
+}
+.profile img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+
+}
+.profile h3{
+    color: white;
+}
+.navigation *{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+   
+}
+
+footer{
+    background-color:black;
+    
+    text-align: center;
+}
+main {
+    width: 75%;
+    
+    margin-left: auto;
+   
+}
+
+.home{
+    height: 100vh;
+    background-image: url(./image/restrunt.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 40px;
+    color:white;
+    padding-left: 40px;
+
+}
+.project-list{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.projects h3{ 
+    color: black;
+}
+
+.project-list img{
+    width: 200px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.project-list a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    box-shadow: 5px 8px 20px 0px rgba( 0,0,0,0.2);
+    padding: 10px;
+    border-radius: 8px;
+}
+.skills{
+    height: 100vh;
+}
+.progress{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    margin: 0 auto;
+}
+.about-me{
+    height: 100vh;
+
+}
+.details{
+    display: flex;
+    gap: 30px;
+}
+.contact-box {
+    display: flex;
+    height: 90vh;
+    gap: 30px;
+    margin: 20px 30px;
+   
+}
+.contact-details{
+    width: 40%;
+    box-shadow:5px 8px 20px 0px rgba( 0,0,0,0.2);
+    padding: 20px;
+}
+.contact-form{
+    width: 60%;
+    box-shadow: 5px 8px 20px 0px rgba( 0,0,0,0.2);
+    padding: 20px;
+    
+}
+.location, .email, .call{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+
+}
+.name-email{
+    display: flex;
+    gap: 20px;
+}
+.name, .your-email{
+    width: 50%;
+}
+ input{
+    width: 100%;
+    height: 40px;   
+    font-size: 20px !important;
+    padding: 5px;
+}
+.button{
+    width: 30%;
+    align-self: center;
+    border: none;
+    outline: none;
+    background-color:rgb(50, 113, 152);
+    border-radius: 8px;
+    color: white;
+
+}
